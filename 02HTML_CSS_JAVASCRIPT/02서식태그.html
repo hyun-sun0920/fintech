@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>서식태그</title>
+  </head>
+  <body>
+    <!-- 제목 태그 h1 - h6-->
+    <!-- h1이 가장 큰 제목, h6이 가장 작은 제목 -->
+    <h1>제목1</h1>
+    <h2>제목2</h2>
+    <h3>제목3</h3>
+    <h4>제목4</h4>
+    <h5>제목5</h5>
+    <h6>제목6</h6>
+
+    <!-- 내용 태그 p(paragraph) -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+      dolore deserunt perspiciatis voluptas soluta odio, ea veritatis doloribus
+      rem, minus eaque dicta cupiditate. Libero totam pariatur ipsum deleniti
+      voluptate quis. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Laudantium dolore deserunt perspiciatis voluptas soluta odio, ea veritatis
+      doloribus rem, minus eaque dicta cupiditate. Libero totam pariatur ipsum
+      deleniti voluptate quis. Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Laudantium dolore deserunt perspiciatis voluptas soluta
+      odio, ea veritatis doloribus rem, minus eaque dicta cupiditate. Libero
+      totam pariatur ipsum deleniti voluptate quis.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+      obcaecati.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+      dolore deserunt perspiciatis voluptas soluta odio, ea veritatis doloribus
+      rem, minus eaque dicta cupiditate. Libero totam pariatur ipsum deleniti
+      voluptate quis.
+    </p>
+
+    <!-- 콘텐츠를 그룹화 하는 태그 div -->
+    <div>
+      <p>요리</p>
+    </div>
+    <div>
+      <p>날씨</p>
+    </div>
+
+    <hr />
+    <div>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex dolorum
+        quisquam magni, ad veniam distinctio ipsum temporibus voluptatum
+        consequuntur recusandae hic, fuga officia iure ut est debitis nesciunt!
+        Earum!
+      </p>
+      <h2>Lorem, ipsum dolor.</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias et
+        quisquam distinctio soluta necessitatibus beatae vitae ad, officia
+        mollitia, consequatur exercitationem dolores, iusto nobis at sed maxime
+        odio placeat voluptatibus.
+      </p>
+    </div>
+
+    <!-- strong, em태그: 특정 문장이나 단어를 강조하고 싶을 때 사용  -->
+    <strong>강조할 문장1 strong</strong>
+    <em>강조할 문장2 em</em>
+
+    <b>강조할 문장3 b</b>
+    <i>강조할 문장4 i</i>
+
+    <hr />
+
+    <!-- 웹 페이지에 링크 걸기 a -->
+    <a href="https://www.naver.com">네이버</a>
+
+    <!-- 태그의 속성 target -->
+    <a href="https://www.naver.com" target="_blank">네이버 새창열기</a>
+
+    <hr />
+    <!-- span 인라인 요소 태그 그룹화 하기 -->
+    <!-- 태그의 종류 - 인라인 요소: 내용을 추가하면 옆으로 이어져서 생성, 
+                  블록요소: 내용을 추가하면 아래쪽으로 공간이 분리되어 생성 -->
+    <p>블록요소 1</p>
+    <p>블록요소 2</p>
+    <strong>인라인 요소1</strong>
+
+    <div>
+      <em>인라인 요소2</em>
+    </div>
+
+    <a href="https://www.naver.com">다음 인라인 요소 3</a>
+
+    <p>
+      span태그는 <span><strong>인라인 요소 </strong></span> 안에서 그룹화 하는
+      태그입니다.
+    </p>
+
+    <!-- 이미지 넣기 img -->
+    <img src="./img/다운로드.jpg" alt="강아지" />
+
+    <!-- 이미지를 시맨틱 태그를 이용해 넣기 -->
+    <figure>
+      <img src="./img/다운로드.jpg" alt="강아지" />
+    </figure>
+
+    <figcaption>
+      고양이가 앞발을 테이블에 올리고 위를 올려다 보고 있는 사진
+    </figcaption>
+
+    <!-- br 태그: 강제 줄 바꿈 -->
+    <strong>강조할 문장1 strong</strong><br />
+    <em>강조할 문장2 em</em><br />
+
+    <b>강조할 문장3 b</b><br /><br />
+    <i>강조할 문장4 i</i>
+  </body>
+</html>
