@@ -1,0 +1,183 @@
+/* 폰트 굵기 바꾸기 */
+/* font-weight */
+/* normal, bold */
+
+h1{
+    font-weight: normal;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+
+/* 폰트 크기 바꾸기 */
+/* font-size: px, em, rem */
+/* px: 1920*1080 */
+/* em: 부모요소를 기준으로 폰트 크기를 조정 */
+/* 부모 20px 자식 2em이면 20px */
+/* rem html 전체 기준 html 16px 2rem 32px */
+
+.font_size > article > h1{
+    font-size: 60px;
+}
+
+
+.font_size > article > p{
+    font-size: 30px;
+}
+
+.font_size > article > a{
+    font-size: 15px;
+}
+
+html{
+    font-size: 16px;
+}
+.font_size_em > article{
+    font-size: 40px;
+}
+
+.font_size_em > article > h1{
+    font-size: 3em;
+}
+
+.font_size_em > article > p{
+    font-size: 1em;
+}
+
+.font_size_em > article > a{
+    font-size: 0.8em;
+}
+
+/* rem */
+/* html의 기본 폰트 사이즈를 기준으로 크기가 변경 */
+.font_size_rem h1{
+    font-size: 3rem;
+}
+
+
+.font_size_rem p{
+    font-size: 1rem;
+}
+
+.font_size_rem a{
+    font-size: 0.8rem;
+}
+
+/* 폰트 모양 바꾸기 */
+.font_style li{
+    font-size: 40px;
+}
+
+.font_type li:nth-of-type(1){
+    font-family: "돋움";
+}
+
+.font_type li:nth-of-type(2){
+    font-family: "돋움";
+}
+
+.font_type li:nth-of-type(3){
+    font-family: serif;
+}
+
+.font_type li:nth-of-type(4){
+    font-family: arial;
+}
+
+/* 구글 폰트 사용하기 */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* 폰트 색상 변경하기 */
+/* 색상명, 16진수, RGB */
+.font_color li:nth-child(1){
+    color: red;
+}
+
+.font_color li:nth-child(2){
+    color: #555555;
+}
+
+.font_color li:nth-child(3){
+    color: rgba(13, 141, 30, 0.808);
+}
+  
+
+.font_color li:nth-child(4){
+    color: rgba(0,0,255,0.3);
+}
+
+.font_color{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+/* 텍스트 줄 간격 바꾸기 */
+.line_height{
+border: 1px solid green;
+}
+
+
+
+.line_height .text1{
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid red;
+}
+
+.line_height .text2{
+    font-size: 20px;
+    line-height: 0.5;
+    border: 1px solid blue;
+}
+
+.line_height > div{
+    border: 1px solid black;
+}
+
+/* 텍스트 정렬 방향 지정하기 */
+/* text-align */
+/* left, right, center, justify */
+
+.align p{
+    border: 1px solid black;
+}
+
+.align p:nth-child(1) {
+    text-align: left;
+}
+
+.align p:nth-child(2) {
+    text-align: center;
+}
+
+.align p:nth-child(3) {
+    text-align: right;
+}
+
+.align p:nth-child(4) {
+    text-align: justify;
+}
+
+
+/* 텍스트 자간 설정하기 */
+.letter_spacing p:nth-child(1){
+    letter-spacing: 0px;
+}
+
+.letter_spacing p:nth-child(2){
+    letter-spacing: 2px;
+}
+
+.letter_spacing p:nth-child(3){
+    letter-spacing: -2px;
+}

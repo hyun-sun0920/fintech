@@ -37,31 +37,37 @@ header li {
 }
 
 /* 8 */
-aside h2{text-align: right;}
+aside > h2{text-align: right;}
 
 /* 9 */
-.notice-list> li:last-child{
+.notice-list li:last-child{
     color: orange;
 }
 
 /* 10 */
-.notice-list> li:nth-child(2){
-    font-size: 20px;
+.notice-list li:nth-child(2){
+    font-size: 20px
 }
 
-/* 11 (모름)*/
-.review > p:first-of-type{
-    color:purple;
+/* 11 */
+.review:first-of-type p{
+    color: purple;
 }
 
 /* 12 */
-footer a {color:green;}
+footer > a{
+    color: green;
+}
 
 /* 13 */
-a[target="_blank"]{text-align: center;}
+a[target="_blank"]{
+    text-align:center;
+}
 
 /* 14 */
-button{font-size: 16px;}
+button{
+    font-size: 16px;
+}
 
 /* 15 */
 button:hover{
@@ -69,107 +75,107 @@ button:hover{
 }
 
 /* 16 */
-.intro>article:first-child{
+.intro + article{
     font-size: 24px;
 }
 
 /* 17 */
-section > h2{
-    text-align: center;
+section h2{
+    text-align:center;
 }
 
 /* 18 */
-.review :last-of-type{
-    color: pink;
+.review:last-of-type{
+    color: brown;
 }
 
 /* 19 */
-.service-list>li:nth-child(3){
-    color: red;
+.service-list li:nth-child(3){
+    color:red;
 }
 
-/* 20 last-child랑 last-of-type 써야 될 때가 구분이 안감*/
-nav>li:last-of-type{
-    text-align: right;
+/* 20 */
+nav li: last-child{
+    text-align:right
 }
 
 /* 21 */
-article{font-size: 20px;}
+article{
+    font-size: 20px
+}
 
 /* 22 */
-aside>li:first-child{
+aside li:first-child{
     color: blue;
 }
 
 /* 23 */
-header h1{
+header > h1{
     color: purple;
 }
 
 /* 24 */
-.services>ul{
+.services > ul{
     text-align: left;
 }
 
+
 /* 25 */
-footer p{
+footer > p {
     font-size: 12px;
 }
 
+
 /* 26 */
-h3{color: blue;}
+h3 {
+    color: blue;
+}
 
 /* 27 */
-.notice-list>li:nth-child(2n+1){
+.notice-list li:nth-child(2n+1){
     color: green;
 }
 
 /* 28 */
-.notice-list>li:nth-child(2n){
+.notice-list li:nth-child(2n){
     color: orange;
 }
 
 /* 29 */
-section>p{font-size: 16px;}
-
-/* 30 */
-article>p:first-child{
+section p{
     font-size: 16px;
 }
 
-/* 31 */
-nav> a:hover{
-    color: green;
+/* 30 */
+article p:first-of-type{
+    color: red;
 }
 
-/* 32 */
-button:hover{
-    font-size: 18px;
-}
+/* 31 */
 
 /* 33 */
-.review>h3:first-of-type{
+.review first-of-type h3 {
     font-size: 24px;
 }
 
 /* 34 */
-article:first-of-type{
+article:first-child{
     color: purple;
 }
 
 /* 35 */
-.service-list>li:last-child{
-    font-size: 18px;
+.service-list li:last-child{
+    font-size:18px;
 }
 
 /* 36 */
-.intro>p{
+.intro > p{
     color: green;
 }
 
 /* 37 */
-.services>h2{
-    font-size: 20px;
+.services> h2 {
+    font-size: 20;
 }
 
 /* 38 */
@@ -178,11 +184,11 @@ footer a:hover{
 }
 
 /* 39 */
-.reviews>div:last-of-type{
+.reviews div:last-of-type{
     font-size: 22px;
 }
 
 /* 40 */
-.navbar>li:first-child{
+.navbar li:first-child{
     color: orange;
 }

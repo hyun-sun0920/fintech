@@ -29,7 +29,9 @@ p{color: blue;}
 .graycolor {color: grey;}
 .browncolor{color: brown;}
 
-
+.strong.center.graycolor {
+    font-size: 30px;
+}
 
 
 /* 어트리뷰트(속성) src, href 셀렉터 attirbute selector*/
