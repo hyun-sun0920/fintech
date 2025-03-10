@@ -54,3 +54,19 @@
 .flex-item:nth-child(2n){
     background-color:blue;
 }
+
+.flex-item:nth-child(1){
+    align-self: flex-start;
+}
+
+.flex-item:nth-child(2){
+    align-self: center;
+}
+
+.flex-item:nth-child(3){
+    align-self: center;
+}
+
+.flex-item:nth-child(4){
+    align-self: self-end;
+}
