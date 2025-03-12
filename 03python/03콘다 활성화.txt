@@ -1,0 +1,42 @@
+[1교시 9:00~ 복습]
+1. css, html, js의 역할: html은 뼈대, css는 꾸미기, js는 동적인 역할
+2. 어제 만든 홈페이지
+
+1)css,html
+- header/nav/article/aside 영역으로 나눔
+- 메인화면 숫자 클릭하면 aside가 바깥에서 등장 -> left -100을 통해
+- nav, section는 display=flex를 통해 가로로 나열했고, flex=1을 통해 동일한 간격으로 설정. 
+- hover 전 화면: left: -100인 상태 -> hover 된 후에는: left:0%;로
+
+
+2) 자바스크립트
+- article, aside, span을 다 찾아서 변수에 넣어줌
+- 반복문: 왜냐면 4개 article에서 반복되어야 하므로
+- article의 h와 p, video를 찾아서 aside에 꽂아줌
+
+3. conda
+- 내가 파이썬을 3.9버전을 써야되는데, 컴터에 3.13 깔아놓으면 -> 계속 3.13만 나옴
+- conda create를 통해 여러 개 파이썬 가상환경을 만들 수 있음 
+- 패키지마다 필요한 파이썬 버전이 다름
+- miniconda: 아나콘다의 용량이 너무 커서 상대적으로 가벼움
+- miniforge: 가장 가벼운 콘다. 아나콘다, 미니콘다, 미니포지 다 명령어는 같음 but 패키지 다운로드 받을 때, 패키지가 있는 위치가 다름
+- conda가 실행하려면 : conda activate -> (base)라고 떠야됨.
+- 가상환경 이름 알고 있다면 conda activate testenv
+- miniforge는 보통 conda-forge에서 패키지 가져옴 but pip로 설치하면 pypi에서 가져옴
+- 개발할 때, 3.12버전을 가지고 패키지를 설치 <-> 아마존에서 프로그램 복사했을 때, 거기 서버에 파이썬 버전이 3.8. 작동안되는 라이브러리들이 있을 수 있음
+- pypi에서 받았는지 conda-forge에서 받았는지에 따라 좀 다름,,
+
+4. 패키지 설치 시, pip와 conda를 잘 구별해서 써야됨
+
+[2교시 10:00~]
+1. 콘다 활성화/비활성화: conda activate 가상 환경명/conda deactivate
+2. 가상환경 만들기: conda create -n 가상환경명 python=버전
+3. 패키지 설치: conda install 패키지명
+4. 설치된 패키지 목록보기: conda list
+5. 가상환경 목록 보기: conda info --envs
+6. 가상환경마다 jupyter notebook 설치해야 됨
+7. jupyter notebook 작업 폴더 설정 방법
+1)생성: jupyter notebook --generate-config
+2)jupyter_notebook dir/w
+8. jupyter notebook에서는 역슬래시가 안 먹음
+
