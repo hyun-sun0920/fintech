@@ -39,4 +39,30 @@
 1)생성: jupyter notebook --generate-config
 2)jupyter_notebook dir/w
 8. jupyter notebook에서는 역슬래시가 안 먹음
+-------------
+1. 올라갈 때: cd..
+2. 내려갈 때: cd 파일명
+3. dir-> 폴더 dir 없는 것 -> 파일
+4. dir/a: 숨김 파일 보여주는 거
+5. dir
+
+[3교시 juypter notebook]
+1.jupyter notebook
+- 한 줄 한 줄 하면서 실행 가능 -> 오류 잡아가면서 할 수 있음
+- 필기도 가능
+
+2. google colab: 주피터 노트북 커스터마이즈 한 것
+
+
+
+
+[7교시]
+- 딕셔너리 자료형에서 key는 별명, 이름에 해당됨. 학교로 예를 들면 12번:구현선
+- 리스트는 번호 호출, 딕셔너리는 이름을 부르면 됨
+
+
+[ ]
+
+
+
 
