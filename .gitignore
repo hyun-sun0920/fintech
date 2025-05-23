@@ -1,4 +1,13 @@
 .ipynb_checkpoints
 data/
-.json
-.csv
+dist/
+build/
+model/
+catanddog/
+*.json
+*.csv
+*.exe
+*.keras
+*.jpg
+*.png
+*.joblib
