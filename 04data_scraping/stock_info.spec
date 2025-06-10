@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['stock_company_info_구현선.py'],
+    ['stock_info.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='stock_company_info_구현선',
+    name='stock_info',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
