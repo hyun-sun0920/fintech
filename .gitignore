@@ -11,3 +11,4 @@ catanddog/
 *.jpg
 *.png
 *.joblib
+*.env*
